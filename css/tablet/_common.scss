@@ -1,0 +1,27 @@
+@media screen and (max-width: $lg-width) {
+
+    .main {
+
+        .inner {
+            padding: 63px 53px 0 53px;
+        }
+    }
+
+    h2 {
+        font-size: 16.66px;
+    }
+
+    .line-bottom {
+        padding-bottom: 6px;
+        padding-right: 13px;
+    }
+
+    p {
+        font-size: 13.33px;
+        line-height: 21px;
+    }
+
+    .major {
+        font-size: 23.333px;
+    }
+}

@@ -1,0 +1,40 @@
+.banner {
+    padding: 99px 0 104px 0;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgba(127, 136, 143, 0.3);
+
+    h1 {
+        font-size: 69px;
+        font-weight: 700;
+        line-height: 90px;
+        color: #3d4449;
+    }
+
+    .content, .banner-img {
+        width: 50%;
+    }
+
+    p {
+        padding: 9px 0;
+    }
+
+    .content {
+        padding-right: 70px;
+    }
+
+    .banner-img {
+        background-image: url(/img/pic10.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-top: 7px;
+        border-radius: 5px;
+    }
+
+    .subtitle {
+        padding: 23px 0;
+        font-size: 17px;
+        letter-spacing: 1.3px;
+    }
+}

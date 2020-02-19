@@ -1,0 +1,29 @@
+@media screen and (max-width: $sm-smaller-width) {
+    .main {
+
+        .inner {
+            padding: 84px 27px 0 27px;
+        }
+    }
+}
+
+@media screen and (max-width: $xs-width) {
+
+    h2 {
+        font-size: 16.66px;
+    }
+
+    .line-bottom {
+        padding-bottom: 6px;
+        padding-right: 13px;
+    }
+
+    p {
+        font-size: 13.33px;
+        line-height: 21px;
+    }
+
+    .major {
+        font-size: 20.333px;
+    }
+}

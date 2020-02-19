@@ -1,0 +1,60 @@
+.sidebar {
+    width: 405px;
+    background-color: #F5F6F7;
+    transition: 0.5s ease;
+    position: relative;
+    
+    .inner {
+        width: 405px;
+        padding: 0 35px 35px 34px;
+    }
+}
+
+.search-form {
+    background-color: #EFF1F2;
+    padding: 35px 35px;
+    margin: 0 -35px;
+}
+
+.search-form-wrap {
+    position: relative;
+
+    input {
+        padding: 15px 15px 12px 16px;
+        font-size: 17px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid rgba(210, 215, 217, 0.75);
+
+        &::placeholder {
+            font-size: 17px;
+            color: #7f888f;
+            opacity: 0.75;
+        }
+    }
+
+    .icon-search {
+        position: absolute;
+        top: 11px;
+        right: 11px;
+        font-size: 22px;
+        transform: scaleX(-1);
+        color: #7f888f;
+        opacity: 0.3;
+        cursor: pointer;
+    }
+}
+
+.navbar {
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    color: #F56A6A;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+body.navbar-hidden .sidebar {
+    margin-left: -405px;
+    transition: 0.5s ease;
+}

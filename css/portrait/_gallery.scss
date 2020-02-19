@@ -1,0 +1,30 @@
+@media screen and (max-width: $md-width) {
+    .gallery {
+        padding: 46px 0 0 0;
+
+        .major {
+            padding-top: 10px;
+            padding-bottom: 12px;
+            padding-right: 17px;
+        }
+    }
+
+    .gallery-items-wrap {
+        margin: 0 0 0 -80px;
+        width: calc(100% + 80px);
+        padding-top: 47px;
+
+        .gallery-item {
+            width: calc(50% - 80px);
+            margin: 0 0 80px 80px;
+        }
+
+        h2 {
+            padding: 13px 0;
+        }
+
+        p {
+            padding-bottom: 9px;
+        }
+    }
+}

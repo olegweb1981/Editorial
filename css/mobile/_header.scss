@@ -1,0 +1,26 @@
+@media screen and (max-width: $sm-smaller-width) {
+    .social {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+
+        i {
+            font-size: 17px;
+            margin-left: 12.4px;
+        }
+    }
+}
+
+@media screen and (max-width: $xs-width) {
+    .header {
+
+        .head-title {
+            font-size: 16.66px;
+        }
+
+        .line-bottom {
+            padding-bottom: 11px;
+
+        }
+    }
+}

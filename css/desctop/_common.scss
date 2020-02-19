@@ -1,0 +1,27 @@
+@media screen and (max-width: $xl-width) {
+
+    .main {
+
+        .inner {
+            padding: 71px 73px 0 73px;
+        }
+    }
+
+    h2 {
+        font-size: 18.3333px;
+    }
+
+    .line-bottom {
+        padding-bottom: 6px;
+        padding-right: 13px;
+    }
+
+    p {
+        font-size: 14.66px;
+        line-height: 24.2px;
+    }
+
+    .major {
+        font-size: 26.333px;
+    }
+}

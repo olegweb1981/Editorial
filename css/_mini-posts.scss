@@ -1,0 +1,47 @@
+.mini-posts {
+    padding: 60px 0;
+    border-bottom: 2px solid rgba(127, 136, 143, 0.3);
+
+    .btn {
+        font-size: 12.48px;
+    }
+}
+
+.title-mini-posts {
+    padding-bottom: 42px;
+}
+
+.mini-post-items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mimi-post {
+    border-bottom: 1px solid rgba(127, 136, 143, 0.3);
+    margin-bottom: 30px;
+
+    &:last-child {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    p {
+        padding: 10px 0 25px 0;
+        margin-top: 8px;
+    }
+}
+
+.mimi-post-img {
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.5s ease;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: $lg-width) {
+    .header {
+
+        .head-title {
+            font-size: 15px;
+        }
+
+        .line-bottom {
+            padding-bottom: 12px;
+
+        }
+
+        .social {
+            i {
+                font-size: 17px;
+                margin-left: 12.4px;
+            }
+        }
+    }
+}

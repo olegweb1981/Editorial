@@ -1,0 +1,42 @@
+@media screen and (max-width: $md-width) {
+    .info {
+        padding: 44px 0 3px 0;
+
+        .major {
+            padding-top: 10px;
+            padding-bottom: 13px;
+            padding-right: 18px;
+        }
+
+        .info-items-wrap {
+            padding-top: 53px;
+            flex-direction: column;
+        }
+    
+        .info-item {
+            width: 100%;
+            padding-bottom: 45px;
+        }
+    }
+
+    .info-item-icon {
+        padding: 7px 42px 0px 14px;
+
+        .icon-wrap {
+            width: 78px;
+            height: 78px;
+        }
+
+        i {
+            font-size: 36px;
+            padding-top: 2px;
+        }
+    }
+
+    .info-item-content {
+        
+        p {
+            padding: 14px 0;
+        }
+    }
+}

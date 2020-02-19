@@ -1,0 +1,26 @@
+.header {
+    
+    .head-title {
+        font-size: 20px;
+    }
+
+    .head-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .line-bottom {
+        padding-bottom: 19px;
+        border-bottom: 5px solid #F56A6A;
+        padding-right: 0;
+    }
+
+    .social {
+        i {
+            font-size: 22px;
+            vertical-align: middle;
+            margin-left: 17px;
+        }
+    }
+}

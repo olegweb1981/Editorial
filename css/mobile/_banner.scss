@@ -1,0 +1,45 @@
+@media screen and (max-width: $sm-smaller-width) {
+    .banner {
+        padding: 32px 0 53px 0;
+        h1 {
+            font-size: 26.666px;
+            font-weight: 700;
+            line-height: 37.333px;
+        }    
+    }
+}
+
+@media screen and (max-width: $xs-width) {
+    .banner {
+        padding: 33px 0 41px 0;
+        flex-direction: column;
+
+        .content, .banner-img {
+            width: 100%;
+        }
+
+        .banner-img {
+            margin-top: 7px;
+            padding: 166px 0;
+            order: 0;
+        }
+
+        .content {
+            order: 1;
+            padding-top: 50px;
+            padding-right: 0;
+        }
+
+        br {
+            display: none;
+        }
+
+        p {
+            padding: 21px 0;
+        }
+
+        .subtitle {
+            padding: 1px 0;
+        }
+    }
+}

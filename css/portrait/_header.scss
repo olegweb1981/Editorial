@@ -1,0 +1,20 @@
+@media screen and (max-width: $md-width) {
+    .header {
+
+        .head-title {
+            font-size: 16.66px;
+        }
+
+        .line-bottom {
+            padding-bottom: 12px;
+
+        }
+
+        .social {
+            i {
+                font-size: 17px;
+                margin-left: 12.4px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: $lg-width) {
+    .mini-posts {
+        padding: 44px 0;
+    
+        .btn {
+            font-size: 12.48px;
+        }
+    }
+    
+    .title-mini-posts {
+        padding-bottom: 32px;
+    }
+    
+    .mimi-post {
+        margin-bottom: 30px;
+        
+        p {
+            padding: 10px 0 25px 0;
+            margin-top: 8px;
+        }
+    }
+}

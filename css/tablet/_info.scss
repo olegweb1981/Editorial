@@ -1,0 +1,41 @@
+@media screen and (max-width: $lg-width) {
+    .info {
+        padding: 44px 0 3px 0;
+
+        .major {
+            padding-top: 10px;
+            padding-bottom: 13px;
+            padding-right: 18px;
+        }
+
+        .info-items-wrap {
+            padding-top: 56px;
+        }
+    
+        .info-item {
+            width: 48.3%;
+            padding-bottom: 51px;
+        }
+    }
+
+    .info-item-icon {
+        padding: 9px 47px 0px 21px;
+
+        .icon-wrap {
+            width: 92px;
+            height: 92px;
+        }
+
+        i {
+            font-size: 43px;
+            padding-top: 6px;
+        }
+    }
+
+    .info-item-content {
+        
+        p {
+            padding: 14px 0;
+        }
+    }
+}

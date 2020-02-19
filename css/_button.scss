@@ -1,0 +1,18 @@
+.btn {
+    font-size: 13.86px;
+    font-family: 'Roboto Slab', sans-serif;
+    text-transform: uppercase;
+    padding: 13px 29px;
+    color: #F56A6A;
+    border: 2px solid #F56A6A;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 700;
+    letter-spacing: 1.04px;
+    margin-top: 26px;
+
+    &:hover {
+        background-color: rgba(245, 106, 106, 0.05);
+        transition: 0.5s ease;
+    }
+}
