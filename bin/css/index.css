@@ -76,10 +76,6 @@ i:hover {
   transition: 0.5s ease;
 }
 
-a {
-  text-decoration: underline;
-}
-
 a:hover {
   color: #F56A6A;
   transition: 0.5s ease;
@@ -179,6 +175,10 @@ body.navbar-hidden .sidebar {
   border-bottom: 2px solid rgba(127, 136, 143, 0.3);
 }
 
+.menu a {
+  cursor: pointer;
+}
+
 .menu ul {
   padding: 14px 0;
 }
@@ -197,6 +197,51 @@ body.navbar-hidden .sidebar {
 
 .menu .title-menu {
   padding: 34px 0 23px 0;
+}
+
+.menu .submenu {
+  position: relative;
+}
+
+.menu .submenu i {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: #9fa3a6;
+}
+
+.menu .submenu i:hover {
+  color: #F56A6A;
+  transition: 0.5s ease;
+}
+
+.menu a {
+  display: block;
+  cursor: pointer;
+}
+
+.menu .visible-submenu {
+  display: none;
+}
+
+.menu .visible-submenu li {
+  font-size: 12.48px;
+  color: #9fa3a6;
+  padding: 3px 0 3px 16px;
+  border-bottom: none;
+}
+
+.menu #submenu.open .visible-submenu {
+  display: block;
+}
+
+.menu #another-submenu.open .visible-submenu {
+  display: block;
+}
+
+.menu #submenu.open i,
+.menu #another-submenu.open i {
+  transform: rotate(180deg);
 }
 
 .header .head-title {
@@ -277,8 +322,8 @@ body.navbar-hidden .sidebar {
 }
 
 .btn:hover {
-  background-color: rgba(245, 106, 106, 0.05);
-  transition: 0.5s ease;
+  background-color: rgba(245, 106, 106, 0.075);
+  transition: 0.2s ease-in-out;
 }
 
 .info {
@@ -376,11 +421,11 @@ body.navbar-hidden .sidebar {
 .gallery-item-img img {
   width: 100%;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .gallery-item-img img:hover {
   transform: scale(1.1);
-  transition: 0.5s ease;
 }
 
 .mini-posts {
@@ -424,11 +469,11 @@ body.navbar-hidden .sidebar {
 .mimi-post-img img {
   width: 100%;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .mimi-post-img img:hover {
   transform: scale(1.1);
-  transition: 0.5s ease;
 }
 
 .touch {
@@ -544,6 +589,10 @@ body.navbar-hidden .sidebar {
   }
   .menu .title-menu {
     padding: 34px 0 23px 0;
+  }
+  .menu .visible-submenu li {
+    font-size: 10.56px;
+    padding: 0 0 0 15px;
   }
 }
 
@@ -810,6 +859,10 @@ body.navbar-hidden .sidebar {
   }
   .menu .title-menu {
     padding: 24px 0 23px 0;
+  }
+  .menu .visible-submenu li {
+    font-size: 9.6px;
+    padding: 0 0 0 13px;
   }
 }
 

@@ -4,6 +4,10 @@
     color: #3d4449;
     border-bottom: 2px solid rgba(127, 136, 143, 0.3);
 
+    a {
+        cursor: pointer;
+    }
+
     ul {
         padding: 14px 0;
     }
@@ -22,5 +26,52 @@
 
     .title-menu {
         padding: 34px 0 23px 0;
+    }
+
+    .submenu {
+        position: relative;
+
+        i {
+            position: absolute;
+            top: 20px;
+            right: 0;
+            color: #9fa3a6;
+
+            &:hover {
+                color: #F56A6A;
+                transition: 0.5s ease;
+            }
+        }
+    }
+
+    a {
+        display: block;
+        cursor: pointer;
+    }
+
+    .visible-submenu {
+        display: none;
+
+        li {
+            font-size: 12.48px;
+            color: #9fa3a6;
+            padding: 3px 0 3px 16px;
+            border-bottom: none;
+        }
+    }
+
+    #submenu.open .visible-submenu {
+        display: block;
+    }
+
+    #another-submenu.open .visible-submenu {
+        display: block;
+    }
+
+    #submenu.open,
+    #another-submenu.open {
+        i {
+            transform: rotate(180deg);
+        }
     }
 }

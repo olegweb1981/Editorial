@@ -48,14 +48,11 @@ i {
     }
 }
 
-a {
-    text-decoration: underline;
-
-    &:hover {
-        color: #F56A6A;
-        transition: 0.5s ease;
-    }
+a:hover {
+    color: #F56A6A;
+    transition: 0.5s ease;
 }
+
 
 h2 {
     font-size: 21.6px;
